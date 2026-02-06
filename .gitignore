@@ -3,6 +3,22 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# Build Folders
+**/bin/
+**/obj/
+
+
+
+# EF Core Migrations Designer / Snapshot files
+**/Migrations/*Designer.cs
+**/Migrations/*Snapshot.cs
+
+# VSCode workspace launch/tasks/settings (om du inte vill checka in)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
 # dotenv files
 .env
 
