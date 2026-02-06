@@ -1,0 +1,14 @@
+GET http://localhost:5243/events
+
+###
+POST http://localhost:5243/events
+Content-Type: application/json
+
+{
+    "Name": "PåskFest",
+    "Description": "Fest för hela yhborås hemma hos Gustav!",
+    "StartDateTime": "2026-02-07T09:00:00",
+    "EndDateTime": "2026-02-08T09:00:00",
+    "Location": "Hemma hos Gustav",
+    "MaxParticipants": 400
+}
